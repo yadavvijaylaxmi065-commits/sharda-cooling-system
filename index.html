@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharda Cooling System - Cooling Tower PVC Fills Manufacturer</title>
+    <title>Sharda Cooling System - Industrial Cooling Towers, Scrubber, Cooling Tower Manufacturer, India</title>
+    <meta name="description" content="Leading manufacturer of Industrial Cooling Towers, Scrubbers, and PVC Fills in India. Premium quality cooling solutions for all industries.">
+    <meta name="keywords" content="cooling tower, industrial cooling tower, scrubber, PVC fills, cooling tower manufacturer India">
     <style>
         * {
             margin: 0;
@@ -17,11 +19,41 @@
             color: #333;
         }
         
+        /* Top Bar */
+        .top-bar {
+            background: #1a4d1f;
+            color: white;
+            padding: 10px 0;
+            font-size: 0.9rem;
+        }
+        
+        .top-bar-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .top-bar-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .top-bar a {
+            color: white;
+            text-decoration: none;
+        }
+        
         /* Header */
         header {
             background: linear-gradient(135deg, #2c5f2d 0%, #4a9d4f 100%);
             color: white;
-            padding: 1rem 0;
+            padding: 1.2rem 0;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             position: sticky;
             top: 0;
@@ -39,19 +71,20 @@
         }
         
         .logo h1 {
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: bold;
+            margin-bottom: 5px;
         }
         
         .logo p {
-            font-size: 0.9rem;
-            opacity: 0.9;
+            font-size: 0.95rem;
+            opacity: 0.95;
         }
         
         nav ul {
             list-style: none;
             display: flex;
-            gap: 2rem;
+            gap: 2.5rem;
         }
         
         nav a {
@@ -59,49 +92,72 @@
             text-decoration: none;
             font-weight: 500;
             transition: opacity 0.3s;
+            font-size: 1.05rem;
         }
         
         nav a:hover {
             opacity: 0.8;
+            text-decoration: underline;
         }
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(44, 95, 45, 0.8), rgba(44, 95, 45, 0.8)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%234a9d4f" width="1200" height="600"/></svg>');
+            background: linear-gradient(rgba(44, 95, 45, 0.85), rgba(44, 95, 45, 0.85)), url('https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T10-00-33-941Z-fe630c95-chat-image-1765015233921-0.jpg');
             background-size: cover;
             background-position: center;
             color: white;
-            padding: 100px 20px;
+            padding: 120px 20px;
             text-align: center;
         }
         
         .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-size: 2.8rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
         
         .hero p {
-            font-size: 1.2rem;
-            margin-bottom: 2rem;
-            max-width: 800px;
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            max-width: 900px;
             margin-left: auto;
             margin-right: auto;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
         
         .cta-button {
             display: inline-block;
             background: white;
             color: #2c5f2d;
-            padding: 12px 30px;
+            padding: 14px 35px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
-            transition: transform 0.3s;
+            font-size: 1.1rem;
+            transition: all 0.3s;
         }
         
         .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+        
+        .cta-button-secondary {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+        
+        .cta-button-secondary:hover {
+            background: white;
+            color: #2c5f2d;
         }
         
         /* Container */
@@ -113,55 +169,85 @@
         
         /* Sections */
         section {
-            padding: 60px 20px;
+            padding: 70px 20px;
         }
         
         section h2 {
             text-align: center;
-            font-size: 2rem;
-            margin-bottom: 3rem;
+            font-size: 2.3rem;
+            margin-bottom: 1rem;
             color: #2c5f2d;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         /* Products Grid */
         .products-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
             margin-top: 2rem;
         }
         
         .product-card {
             background: white;
-            border-radius: 10px;
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s;
         }
         
         .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.2);
         }
         
         .product-image {
             width: 100%;
-            height: 250px;
+            height: 280px;
             object-fit: cover;
         }
         
         .product-info {
-            padding: 1.5rem;
+            padding: 1.8rem;
         }
         
         .product-info h3 {
             color: #2c5f2d;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.4rem;
         }
         
         .product-info p {
             color: #666;
-            margin-bottom: 1rem;
+            margin-bottom: 1.2rem;
+            line-height: 1.7;
+        }
+        
+        .product-features {
+            list-style: none;
+            margin-top: 15px;
+        }
+        
+        .product-features li {
+            padding: 5px 0;
+            color: #555;
+            font-size: 0.95rem;
+        }
+        
+        .product-features li:before {
+            content: "✓ ";
+            color: #4a9d4f;
+            font-weight: bold;
+            margin-right: 8px;
         }
         
         /* Features */
@@ -171,26 +257,38 @@
         
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
         }
         
         .feature-card {
             text-align: center;
-            padding: 2rem;
+            padding: 2.5rem;
             background: white;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
         
         .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
+            font-size: 3.5rem;
+            margin-bottom: 1.2rem;
         }
         
         .feature-card h3 {
             color: #2c5f2d;
             margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.7;
         }
         
         /* About Section */
@@ -199,68 +297,180 @@
         }
         
         .about-content {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            text-align: center;
         }
         
         .about-content p {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             color: #555;
-            font-size: 1.1rem;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .about-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .highlight-box {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .highlight-box h4 {
+            font-size: 2.5rem;
+            color: #2c5f2d;
+            margin-bottom: 0.5rem;
+        }
+        
+        .highlight-box p {
+            color: #666;
+            font-size: 1rem;
         }
         
         /* Contact Section */
         .contact {
-            background: #f8f9fa;
+            background: linear-gradient(135deg, #2c5f2d 0%, #4a9d4f 100%);
+            color: white;
+        }
+        
+        .contact h2 {
+            color: white;
+        }
+        
+        .section-subtitle.white {
+            color: rgba(255,255,255,0.9);
         }
         
         .contact-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            max-width: 900px;
-            margin: 0 auto;
+            gap: 2.5rem;
+            margin-top: 3rem;
         }
         
         .contact-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 10px;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 2.5rem;
+            border-radius: 12px;
             text-align: center;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s;
         }
         
-        .contact-card h3 {
-            color: #2c5f2d;
+        .contact-card:hover {
+            background: rgba(255,255,255,0.15);
+            transform: translateY(-5px);
+        }
+        
+        .contact-icon {
+            font-size: 3rem;
             margin-bottom: 1rem;
         }
         
+        .contact-card h3 {
+            color: white;
+            margin-bottom: 1.2rem;
+            font-size: 1.4rem;
+        }
+        
         .contact-card p {
-            color: #555;
-            margin-bottom: 0.5rem;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
         }
         
         .contact-card a {
-            color: #2c5f2d;
+            color: white;
             text-decoration: none;
             font-weight: 500;
+            border-bottom: 1px solid rgba(255,255,255,0.5);
+            transition: all 0.3s;
+        }
+        
+        .contact-card a:hover {
+            border-bottom-color: white;
+        }
+        
+        /* Map Section */
+        .map-section {
+            padding: 0;
+            height: 450px;
+        }
+        
+        .map-container {
+            width: 100%;
+            height: 100%;
+            background: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
         }
         
         /* Footer */
         footer {
-            background: #2c5f2d;
+            background: #1a4d1f;
             color: white;
-            text-align: center;
-            padding: 2rem 20px;
+            padding: 3rem 20px 1.5rem;
         }
         
-        footer p {
-            margin-bottom: 0.5rem;
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 1.2rem;
+            font-size: 1.3rem;
+        }
+        
+        .footer-section p,
+        .footer-section li {
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 0.8rem;
+            line-height: 1.7;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+            color: rgba(255,255,255,0.8);
         }
         
         /* Responsive */
         @media (max-width: 768px) {
+            .top-bar-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
             .header-content {
                 flex-direction: column;
                 text-align: center;
@@ -270,31 +480,51 @@
                 margin-top: 1rem;
                 flex-wrap: wrap;
                 justify-content: center;
+                gap: 1.5rem;
             }
             
             .hero h2 {
-                font-size: 1.8rem;
+                font-size: 2rem;
             }
             
             .hero p {
-                font-size: 1rem;
+                font-size: 1.1rem;
+            }
+            
+            section h2 {
+                font-size: 1.8rem;
             }
         }
     </style>
 </head>
 <body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <div class="top-bar-item">
+                📞 <span>Call Us: +91-XXXXXXXXXX</span>
+            </div>
+            <div class="top-bar-item">
+                ✉️ <a href="mailto:info@shardacooling.com">info@shardacooling.com</a>
+            </div>
+            <div class="top-bar-item">
+                📍 <span>Serving All Over India</span>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header>
         <div class="header-content">
             <div class="logo">
                 <h1>Sharda Cooling System</h1>
-                <p>Premium Cooling Tower Solutions</p>
+                <p>Industrial Cooling Towers, Scrubber & PVC Fills Manufacturer</p>
             </div>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#products">Products</a></li>
-                    <li><a href="#features">Features</a></li>
+                    <li><a href="#features">Why Us</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -304,61 +534,95 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <h2>Leading Manufacturer of Cooling Tower PVC Fills</h2>
-        <p>High-quality cooling tower systems and PVC fills designed for optimal performance and durability. Trusted by industries across India.</p>
-        <a href="#contact" class="cta-button">Get Quote</a>
+        <h2>Leading Manufacturer of Industrial Cooling Solutions</h2>
+        <p>Premium Quality Cooling Towers, Scrubbers & PVC Fills | Trusted by Industries Across India | ISO Certified Manufacturing</p>
+        <div class="hero-buttons">
+            <a href="#contact" class="cta-button">Get Quote Now</a>
+            <a href="#products" class="cta-button cta-button-secondary">View Products</a>
+        </div>
     </section>
 
     <!-- Products Section -->
     <section id="products">
         <div class="container">
-            <h2>Our Products</h2>
+            <h2>Our Product Range</h2>
+            <p class="section-subtitle">Comprehensive cooling solutions designed for maximum efficiency and durability</p>
             <div class="products-grid">
                 <div class="product-card">
-                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-32-850Z-0a7a0175-chat-image-1765014032829-0.jpg" alt="Cooling Tower Green" class="product-image">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-32-850Z-0a7a0175-chat-image-1765014032829-0.jpg" alt="Industrial Cooling Tower" class="product-image">
                     <div class="product-info">
                         <h3>Industrial Cooling Towers</h3>
-                        <p>Heavy-duty cooling towers designed for industrial applications with superior heat dissipation capabilities.</p>
+                        <p>Heavy-duty cooling towers engineered for large-scale industrial applications with superior heat dissipation and energy efficiency.</p>
+                        <ul class="product-features">
+                            <li>High cooling capacity</li>
+                            <li>Corrosion resistant</li>
+                            <li>Low maintenance</li>
+                        </ul>
                     </div>
                 </div>
                 
                 <div class="product-card">
-                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-33-317Z-d41b4f31-chat-image-1765014033298-3.jpg" alt="Cooling Tower Blue" class="product-image">
-                    <div class="product-info">
-                        <h3>Compact Cooling Systems</h3>
-                        <p>Space-efficient cooling solutions perfect for medium-scale operations with excellent performance.</p>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T10-00-33-941Z-fe630c95-chat-image-1765015233921-0.jpg" alt="Round Cooling Tower Blue" class="product-image">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T10-00-33-941Z-fe630c95-chat-image-1765015233921-0.jpg" alt="Round Cooling Tower" class="product-image">
                     <div class="product-info">
                         <h3>Round Cooling Towers</h3>
-                        <p>Circular design cooling towers offering optimal water distribution and efficient cooling performance.</p>
+                        <p>Circular design cooling towers offering optimal water distribution, uniform cooling, and space-efficient installation.</p>
+                        <ul class="product-features">
+                            <li>360° water distribution</li>
+                            <li>Compact design</li>
+                            <li>Energy efficient</li>
+                        </ul>
                     </div>
                 </div>
                 
                 <div class="product-card">
-                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T10-00-34-150Z-2a181c5b-chat-image-1765015234128-1.jpg" alt="Large Green Cooling Tower" class="product-image">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T10-00-34-150Z-2a181c5b-chat-image-1765015234128-1.jpg" alt="Large Capacity Cooling Tower" class="product-image">
                     <div class="product-info">
                         <h3>Large Capacity Towers</h3>
-                        <p>High-capacity cooling towers for heavy industrial use with advanced cooling technology.</p>
+                        <p>High-capacity cooling systems designed for heavy industrial operations requiring maximum cooling performance.</p>
+                        <ul class="product-features">
+                            <li>Heavy-duty construction</li>
+                            <li>Maximum cooling output</li>
+                            <li>Industrial grade materials</li>
+                        </ul>
                     </div>
                 </div>
                 
                 <div class="product-card">
-                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-33-008Z-fcc3a170-chat-image-1765014032990-1.jpg" alt="PVC Fills" class="product-image">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-33-317Z-d41b4f31-chat-image-1765014033298-3.jpg" alt="Compact Cooling System" class="product-image">
+                    <div class="product-info">
+                        <h3>Compact Cooling Systems</h3>
+                        <p>Space-efficient cooling solutions perfect for medium-scale operations without compromising on performance.</p>
+                        <ul class="product-features">
+                            <li>Space saving design</li>
+                            <li>Easy installation</li>
+                            <li>Cost effective</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-33-008Z-fcc3a170-chat-image-1765014032990-1.jpg" alt="PVC Cooling Tower Fills" class="product-image">
                     <div class="product-info">
                         <h3>PVC Cooling Tower Fills</h3>
-                        <p>Premium quality PVC fills ensuring maximum water-air contact and efficient cooling performance.</p>
+                        <p>Premium quality PVC fills ensuring maximum water-air contact surface area for efficient heat transfer and cooling.</p>
+                        <ul class="product-features">
+                            <li>High thermal efficiency</li>
+                            <li>UV stabilized</li>
+                            <li>Long service life</li>
+                        </ul>
                     </div>
                 </div>
                 
                 <div class="product-card">
-                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-33-171Z-3c65518d-chat-image-1765014033152-2.jpg" alt="Custom Cooling Tower" class="product-image">
+                    <img src="https://nyc3.digitaloceanspaces.com/bhindi-drive/files/8c929026-b14e-40db-a8e4-36a92aca396b/2025-12-06T09-40-33-171Z-3c65518d-chat-image-1765014033152-2.jpg" alt="Custom Cooling Solutions" class="product-image">
                     <div class="product-info">
                         <h3>Custom Cooling Solutions</h3>
-                        <p>Tailored cooling tower systems designed to meet your specific industrial requirements.</p>
+                        <p>Tailored cooling tower systems designed and manufactured to meet your specific industrial requirements and specifications.</p>
+                        <ul class="product-features">
+                            <li>Customized design</li>
+                            <li>Application specific</li>
+                            <li>Expert consultation</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -368,42 +632,55 @@
     <!-- Features Section -->
     <section class="features" id="features">
         <div class="container">
-            <h2>Why Choose Us</h2>
+            <h2>Why Choose Sharda Cooling System</h2>
+            <p class="section-subtitle">Your trusted partner for industrial cooling solutions with proven excellence</p>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">🏭</div>
                     <h3>Premium Quality</h3>
-                    <p>High-grade materials and superior manufacturing standards ensure long-lasting performance.</p>
+                    <p>High-grade materials and superior manufacturing standards ensure long-lasting performance and reliability.</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">⚡</div>
                     <h3>Energy Efficient</h3>
-                    <p>Optimized designs that reduce energy consumption while maximizing cooling efficiency.</p>
+                    <p>Optimized designs that significantly reduce energy consumption while maximizing cooling efficiency.</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">🔧</div>
                     <h3>Easy Maintenance</h3>
-                    <p>Simple design for hassle-free maintenance and reduced operational downtime.</p>
+                    <p>Simple, user-friendly design for hassle-free maintenance and reduced operational downtime.</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">💪</div>
                     <h3>Durable Construction</h3>
-                    <p>Robust build quality designed to withstand harsh industrial environments.</p>
+                    <p>Robust build quality designed to withstand harsh industrial environments and extreme conditions.</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">🎯</div>
                     <h3>Custom Solutions</h3>
-                    <p>Tailored cooling systems designed to meet your specific requirements.</p>
+                    <p>Tailored cooling systems designed to meet your specific requirements and operational needs.</p>
                 </div>
                 
                 <div class="feature-card">
                     <div class="feature-icon">✅</div>
-                    <h3>Certified Products</h3>
-                    <p>All products meet industry standards and quality certifications.</p>
+                    <h3>ISO Certified</h3>
+                    <p>All products meet international quality standards and industry certifications for assured quality.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Pan India Delivery</h3>
+                    <p>Timely delivery and installation support across all major cities and industrial areas in India.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💼</div>
+                    <h3>Expert Support</h3>
+                    <p>Dedicated technical team providing consultation, installation guidance, and after-sales service.</p>
                 </div>
             </div>
         </div>
@@ -413,12 +690,34 @@
     <section class="about" id="about">
         <div class="container">
             <h2>About Sharda Cooling System</h2>
+            <p class="section-subtitle">Excellence in Industrial Cooling Solutions Since Years</p>
             <div class="about-content">
-                <p>Sharda Cooling System is a leading manufacturer and supplier of high-quality cooling towers and PVC fills in India. With years of experience in the industry, we specialize in providing efficient cooling solutions for various industrial applications.</p>
+                <p>Sharda Cooling System is a leading manufacturer and supplier of high-quality industrial cooling towers, scrubbers, and PVC fills in India. With years of experience in the industry, we have established ourselves as a trusted name in providing efficient and reliable cooling solutions for various industrial applications.</p>
                 
-                <p>Our products are manufactured using premium quality materials and advanced technology to ensure optimal performance, durability, and energy efficiency. We are committed to delivering excellence in every product we manufacture.</p>
+                <p>Our state-of-the-art manufacturing facility is equipped with advanced technology and machinery, enabling us to produce cooling towers that meet the highest quality standards. We specialize in designing and manufacturing cooling towers for diverse industries including power plants, chemical processing, HVAC systems, manufacturing units, and more.</p>
                 
-                <p>From small-scale operations to large industrial facilities, we provide customized cooling solutions that meet the specific needs of our clients. Our team of experts ensures timely delivery and professional installation support.</p>
+                <p>Our products are manufactured using premium quality raw materials sourced from certified vendors, ensuring optimal performance, durability, and energy efficiency. We are committed to delivering excellence in every product we manufacture, backed by rigorous quality control processes and testing procedures.</p>
+                
+                <p>From small-scale operations to large industrial facilities, we provide customized cooling solutions that meet the specific needs of our clients. Our team of experienced engineers and technicians ensures timely delivery, professional installation support, and comprehensive after-sales service.</p>
+                
+                <div class="about-highlights">
+                    <div class="highlight-box">
+                        <h4>500+</h4>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="highlight-box">
+                        <h4>1000+</h4>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="highlight-box">
+                        <h4>15+</h4>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="highlight-box">
+                        <h4>100%</h4>
+                        <p>Quality Assured</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -426,23 +725,30 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
+            <h2>Get In Touch With Us</h2>
+            <p class="section-subtitle white">We're here to help with all your cooling tower requirements</p>
             <div class="contact-grid">
                 <div class="contact-card">
-                    <h3>📍 Address</h3>
+                    <div class="contact-icon">📍</div>
+                    <h3>Visit Us</h3>
                     <p>Sharda Cooling System</p>
-                    <p>India</p>
+                    <p>Industrial Area, India</p>
+                    <p>Open: Mon - Sat (9 AM - 6 PM)</p>
                 </div>
                 
                 <div class="contact-card">
-                    <h3>📞 Phone</h3>
-                    <p>Contact us for inquiries</p>
+                    <div class="contact-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p>Phone: <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a></p>
+                    <p>Mobile: <a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a></p>
                     <p>Available during business hours</p>
                 </div>
                 
                 <div class="contact-card">
-                    <h3>✉️ Email</h3>
-                    <p>Send us your requirements</p>
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:info@shardacooling.com">info@shardacooling.com</a></p>
+                    <p><a href="mailto:sales@shardacooling.com">sales@shardacooling.com</a></p>
                     <p>We'll respond within 24 hours</p>
                 </div>
             </div>
@@ -455,9 +761,46 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sharda Cooling System</h3>
+                <p>Leading manufacturer of industrial cooling towers, scrubbers, and PVC fills in India. Committed to quality, innovation, and customer satisfaction.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Our Products</h3>
+                <ul>
+                    <li><a href="#products">Industrial Cooling Towers</a></li>
+                    <li><a href="#products">Round Cooling Towers</a></li>
+                    <li><a href="#products">PVC Fills</a></li>
+                    <li><a href="#products">Scrubbers</a></li>
+                    <li><a href="#products">Custom Solutions</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#features">Why Choose Us</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>📞 +91-XXXXXXXXXX</p>
+                <p>✉️ info@shardacooling.com</p>
+                <p>📍 India</p>
+                <p>🕒 Mon - Sat: 9 AM - 6 PM</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
             <p>&copy; 2024 Sharda Cooling System. All Rights Reserved.</p>
-            <p>Premium Cooling Tower PVC Fills Manufacturer</p>
+            <p>Industrial Cooling Towers, Scrubber, Cooling Tower Manufacturer, India</p>
         </div>
     </footer>
 </body>
